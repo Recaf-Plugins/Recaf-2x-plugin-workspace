@@ -15,4 +15,4 @@ Once you've downloaded or cloned the repository, you can compile with `mvn packa
 
 ### Example download
 
-See the [releases](https://github.com/Col-E/Recaf/releases) page for examples based off of this workspace.
+See the [releases](https://github.com/Col-E/Recaf-plugin-workspace/releases) page for examples based off of this workspace.
