@@ -19,3 +19,4 @@ out/
 *.iws
 *.iml
 *___jb_*___
+/target/

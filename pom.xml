@@ -2,17 +2,6 @@
 	<modelVersion>4.0.0</modelVersion>
 	<!-- Your personal package -->
 	<groupId>me.yourname</groupId>
-	<!-- 
-	Do not change this, maven will use this name for your target jar's name. 
-	Recaf's plugin directory format is:
-	Plugins{ 
-		Plugin-Folder {
-			plugin-{VERISON}.jar
-			settings.json
-		}
-		...
-	}
-	-->
 	<artifactId>plugin</artifactId>
 	<version>1.0</version>
 	<name>Recaf plugin workspace</name>
@@ -26,25 +15,13 @@
 	<!-- Dependencies, most are inferred by Recaf's own dependency list -->
 	<dependencies>
 		<dependency>
-			<groupId>com.github.Col-E</groupId>
-			<artifactId>Recaf</artifactId>
-			<version>1.4.2</version>
+		    <groupId>com.github.Col-E</groupId>
+		    <artifactId>recaf</artifactId>
+		    <version>1.11.1</version>
 		</dependency>
 	</dependencies>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
-		<!-- 
-		This will include the services filename.
-		Make sure that when you rename your plugin class to update the service file.
-		-->
-		<resources>
-			<resource>
-				<directory>src</directory>
-				<includes>
-					<include>META-INF/**/*</include>
-				</includes>
-			</resource>
-		</resources>
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
