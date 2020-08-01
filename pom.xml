@@ -20,7 +20,7 @@
 		<dependency>
 		    <groupId>com.github.Col-E</groupId>
 		    <artifactId>recaf</artifactId>
-		    <version>2.0.0-redesign.12</version>
+		    <version>2.4.0</version>
 		</dependency>
 	</dependencies>
 	<build>
