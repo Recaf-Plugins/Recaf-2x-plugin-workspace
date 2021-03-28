@@ -10,17 +10,29 @@
 	</properties>
 	<!-- Additional repo's -->
 	<repositories>
+		<!-- 3rd party repo, analyzer -->
 		<repository>
 			<id>jitpack.io</id>
 			<url>https://jitpack.io</url>
+		</repository>
+		<!-- 3rd party repo, Forge -->
+		<repository>
+			<id>forge</id>
+			<url>http://files.minecraftforge.net/maven</url>
+		</repository>
+		<!-- 3rd party repo, mirror -->
+		<repository>
+			<id>mirrors</id>
+			<url>https://github.com/Col-E/jdk-tools-mirror/raw/master/repository/</url>
 		</repository>
 	</repositories>
 	<!-- Dependencies, most are inferred by Recaf's own dependency list -->
 	<dependencies>
 		<dependency>
 		    <groupId>com.github.Col-E</groupId>
-		    <artifactId>recaf</artifactId>
-		    <version>2.4.0</version>
+		    <artifactId>Recaf</artifactId>
+		    <version>2.18.3</version>
+			<scope>compile</scope> <!-- Do not bundle into fatJar -->
 		</dependency>
 	</dependencies>
 	<build>

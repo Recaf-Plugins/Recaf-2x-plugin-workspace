@@ -4,7 +4,7 @@ This is a sample maven workspace for creating plugins for Recaf `2.X`.
 
 ## Plugin documentation
 
-The official documentation can be found here: [Recaf Docs:Plugins](https://col-e.github.io/Recaf/doc-advanced-plugin.html).
+The official documentation can be found here: [Recaf Docs:Plugins](https://col-e.github.io/Recaf-documentation/adv-plugins.html).
 
 The source and javadoc artifacts are also available and can be fetched in your IDE workspace.
 
