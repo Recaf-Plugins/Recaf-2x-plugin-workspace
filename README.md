@@ -14,7 +14,7 @@ Once you've downloaded or cloned the repository, you can compile with `mvn clean
 This will generate the file `target/plugin-{VERSION}.jar`. To add your plugin to Recaf:
 
 1. Navigate to the `plugins` folder.
-    - Windows: `%HOMEPATH%/Recaf/plugins`
+    - Windows: `%APPDATA%/Recaf/plugins`
 	- Linux: `$HOME/Recaf/plugins`
 2. Copy your plugin jar into this folder
 3. Run Recaf to verify your plugin loads.
